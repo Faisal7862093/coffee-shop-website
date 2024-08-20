@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)), url(./assets/Images/Coffee\ espresso\ template1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(75, 35, 20);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.links {
+    margin-top: 20px;
+    padding-right: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgba(75, 35, 20);
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffffff6b;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-heading {
+    padding: 150px 70px;
+    font-size: large;
+}
+
+.main-heading h1 {
+    font-size: 50px;
+}
+
+.main-heading h1 span {
+    font-size: 60px;
+    font-style: normal;
+    color: burlywood;
+}
+
+.main-heading p {
+    padding: 5px 0;
+}
+
+.main-heading button {
+    color: rgba(75, 35, 20);
+    border: 1px solid rgba(75, 35, 20);
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.main-image img {
+    width: 400px;
+}
+
+.main-image img {
+    position: relative;
+    animation: move 1s both;
+}
+
+@keyframes move {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 100px;
+    }
+}
+
+
+/* small screen */
+@media(max-width:1000px) {
+    .logo img {
+        width: 70px;
+        height: 70px;
+        padding-left: 30px;
+    }
+
+    .links {
+        padding-right: 50px;
+    }
+
+    .links a {
+        padding: 10px 10px;
+    }
+
+    .main-heading {
+        padding: 150px 50px;
+    }
+
+    .main-heading h1 {
+        font-size: 35px;
+    }
+
+    .main-heading h1 span {
+        font-size: 50px;
+    }
+    .main
+
+    .main-image img {
+        width: 350px;
+    }
+
+}
+
+/* tabs */
+@media(max-width:780px) {
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .links a {
+        font-size: 2.7vh;
+        padding: 5px;
+    }
+
+    .main-image img {
+        width: 300px;
+    }
+}
+
+/* mobile */
+@media(max-width:420px) {
+    .logo img {
+        width: 50px;
+        height: 50px;
+        padding-left: 10px;
+    }
+
+    .links {
+        padding-right: 10px;
+    }
+
+    .links a {
+        font-size: 1.7vh;
+        padding: 5px 5px;
+    }
+
+    .main-image img {
+        width: 250px;
+    }
+}
