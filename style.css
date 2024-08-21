@@ -12,7 +12,7 @@ body {
     background-attachment: fixed;
     color: rgba(75, 35, 20);
 }
-
+/* Header Section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ nav {
     background-color: #ffffff6b;
     border-radius: 10px;
 }
-
+/* Home Section */
 .main {
     display: flex;
     justify-content: space-between;
@@ -127,9 +127,23 @@ nav {
         font-size: 50px;
     }
 
+    .main button {
+        padding: 8px;
+        margin-top: 8px;
+    }
 
     .main-image img {
-        width: 350px;
+        width: 300px;
+    }
+
+    @keyframe move {
+        from {
+            right: 0px
+        }
+
+        to {
+            right: 50px
+        }
     }
 
 }
@@ -146,8 +160,38 @@ nav {
         padding: 5px;
     }
 
+    .main-heading {
+        padding: 150px 20px;
+    }
+
+    .main-heading h1 {
+        font-size: 25px;
+    }
+
+    .main-heading h1 span {
+        font-size: 40px;
+    }
+
+    .main-heading p {
+        font-size: small;
+    }
+
+    .main button {
+        padding: 5px;
+    }
+
     .main-image img {
         width: 300px;
+    }
+
+    @keyframe move {
+        from {
+            right: 0px
+        }
+
+        to {
+            right: 5%
+        }
     }
 }
 
@@ -168,7 +212,42 @@ nav {
         padding: 5px 5px;
     }
 
+    .main-heading {
+        padding: 150px 20px;
+    }
+
+    .main-heading h1 {
+        font-size: 3vh;
+    }
+
+    .main-heading h1 span {
+        font-size: 5vh;
+    }
+
+    .main-heading p {
+        font-size: 2vh;
+    }
+
+    .main button {
+        padding: 6px;
+        margin-left: 5px;
+        font-size: 2vh;
+    }
+
     .main-image img {
-        width: 250px;
+        width: 200px;
+        margin-top: 90px;
+        margin-left: 40%;
+
+    }
+
+    @keyframe move {
+        from {
+            right: 0px
+        }
+
+        to {
+            right: 5%
+        }
     }
 }
