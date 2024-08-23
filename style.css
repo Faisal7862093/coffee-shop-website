@@ -45,6 +45,12 @@ nav {
     border-radius: 10px;
 }
 
+.links a:hover {
+    cursor: pointer;
+    background-color: rgba(75, 35, 20);
+    color: #fff;
+}
+
 /* Home Section */
 .main {
     display: flex;
@@ -55,6 +61,7 @@ nav {
     padding: 150px 70px;
     font-size: large;
 }
+
 
 .main-heading h1 {
     font-size: 50px;
@@ -80,6 +87,13 @@ nav {
     background-color: transparent;
     font-weight: bolder;
 }
+
+.main-heading button:hover {
+    cursor: pointer;
+    background-color: rgba(75, 35, 20);
+    color: #fff;
+}
+
 
 .main-image img {
     width: 400px;
@@ -348,6 +362,18 @@ footer a img {
         margin-top: -80px;
         font-size: 25px;
     }
+
+    .links a:hover {
+        cursor: pointer;
+        background-color: rgba(75, 35, 20);
+        color: #fff;
+    }
+
+    .main-heading button:hover {
+        cursor: pointer;
+        background-color: rgba(75, 35, 20);
+        color: #fff;
+    }
 }
 
 
@@ -464,6 +490,18 @@ footer a img {
     footer img {
         width: 15px;
         padding: 5px;
+    }
+
+    .links a:hover {
+        cursor: pointer;
+        background-color: rgba(75, 35, 20);
+        color: #fff;
+    }
+
+    .main-heading button:hover {
+        cursor: pointer;
+        background-color: rgba(75, 35, 20);
+        color: #fff;
     }
 }
 
@@ -615,5 +653,17 @@ footer a img {
     footer img {
         width: 10px;
         padding: 2px;
+    }
+
+    .links a:hover {
+        cursor: pointer;
+        background-color: rgba(75, 35, 20);
+        color: #fff;
+    }
+
+    .main-heading button:hover {
+        cursor: pointer;
+        background-color: rgba(75, 35, 20);
+        color: #fff;
     }
 }
