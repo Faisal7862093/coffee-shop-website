@@ -289,6 +289,31 @@ nav {
         font-size: 2.7vh;
         font-weight: 400px;
     }
+
+    .beans-container {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .beans-container div {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 100px;
+    }
+
+    .beans-container img {
+        position: relative;
+        top: -50px;
+        width: 240px;
+    }
+
+    .beans-container p {
+        margin-top: -80px;
+        font-size: 25px;
+    }
 }
 
 
@@ -371,6 +396,26 @@ nav {
         font-size: 2vh;
         font-weight: 350px;
         padding: 0px 20px;
+    }
+
+    .beans-container {
+        display: grid;
+        grid-template-columns: 30% 30%;
+    }
+
+    .beans-container div {
+        width: 220px;
+        height: 220px;
+    }
+
+    .beans-container img {
+        position: relative;
+        top: -50px;
+    }
+
+    .beans-container p {
+        margin-top: -80px;
+        font-size: 15px;
     }
 }
 
@@ -476,5 +521,32 @@ nav {
         margin-right: 0;
         text-align: justify;
         padding-top: 20px;
+    }
+
+    .beans-container {
+        display: grid;
+        grid-template-columns: 70%;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        margin-top: 170px;
+        margin-left: 50px;
+    }
+
+    .beans-container div {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 100px;
+    }
+
+    .beans-container img {
+        position: relative;
+        top: -50px;
+        width: 240px;
+    }
+
+    .beans-container p {
+        margin-top: -80px;
+        font-size: 20px;
     }
 }
